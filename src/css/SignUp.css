@@ -1,0 +1,40 @@
+.modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container__signUp {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+
+    margin-top: 10vh;
+}
+
+.modal__inactive {
+    display: none;
+}
+
+.signIn__form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+    gap: 3vh;
+}
+
+.signIn__form > * {
+    min-width: 200px;
+    width: 60%;
+}
+
+.signIn__form > * > input {
+    width: 100%;
+}
+
+.signUp_button {
+    width: 200px;
+}

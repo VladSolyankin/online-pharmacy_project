@@ -1,0 +1,26 @@
+.container__signIn {
+    width: 100%;
+    margin-top: 20vh;
+}
+.signIn__form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+    gap: 5vh;
+    text-align: center;
+}
+
+.signIn__form > * {
+    width: 30%;
+}
+
+.signIn_button {
+    width: 200px !important;
+}
+
+.form__error {
+    color: red;
+    font-size: 18px;
+}

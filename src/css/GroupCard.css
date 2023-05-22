@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container__card-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    border: 2px solid black;
+    border-radius: 15px;
+
+    width: 30vw;
+    height: 60vh;
+
+    padding: 30px;
+    text-align: center;
+    gap: 3vh;
+}
+
+.container__card-group:hover {
+    transform: scale(1.05);
+}
+
+.card__image {
+    width: 15vw;
+    height: 20vh;
+    object-fit: fill;
+}

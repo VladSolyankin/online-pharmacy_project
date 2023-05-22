@@ -1,0 +1,31 @@
+
+.container__navbar {
+    height: 13vh;
+    width: 100%;
+    background: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 2vw;
+}
+
+.navbar__logo {
+    object-fit: contain;
+    width: 100px;
+    height: 100%;
+    cursor: pointer;
+}
+
+.navbar__menu {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+
+    gap: 5vw;
+}
+
+.navbar__menu > *:hover {
+    color: gray;
+}
